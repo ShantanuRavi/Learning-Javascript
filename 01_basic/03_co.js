@@ -11,3 +11,6 @@ console.log(valueInNumber);
 //"33" => 33
 //"33abs" => NaN
 // true/false => 1/0
+
+
+//***********************operations****************************/
