@@ -42,5 +42,34 @@
 
 //----STRING METHODS / FUNCTIONS----
 
-let str = new String("Ravi")
-console.log(str[0])
+// let str = new String("Shantanu")
+// console.log(str[5])
+// console.log(str.__proto__)
+// console.log(str.length)
+// console.log(str.toUpperCase())
+// console.log(str.toLowerCase())
+// console.log(str.charAt(4))
+// console.log(str.indexOf('h'))
+
+let str = new String("Shantanu")
+// let newStr1 = str.substring(0,3)    //NOTE: -VE INDEXING DOES NOT WORK IN substring()
+// let newStr2 = str.slice(-5,-1)
+console.log(str.substring(0,4))
+console.log(str.slice(-5,-1))
+
+// let str = "  Shantanu  "
+// console.log(str)
+// console.log(str.trim())
+
+// let text = "Hello world!";
+// let result = text.repeat(2);
+// console.log(result)
+
+// let text = "Please visit Microsoft!";
+// let newText = text.replace("Microsoft", "W3Schools");
+// console.log(newText)
+// console.log(newText.includes('j'))
+
+
+// let text = "Please visit Microsoft!";
+// console.log(text.split("i"))
