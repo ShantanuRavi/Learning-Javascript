@@ -1,4 +1,4 @@
-//----OBJECTS USING LITERALS----//
+//----1--OBJECTS USING LITERALS----//
 
 
 
@@ -13,7 +13,7 @@
 //     [mySym]:"hello"
 // }
 
-//----ACCCESSING OBJETCS ELEMENTS----//
+//----2--ACCCESSING OBJETCS ELEMENTS----//
 
 
 // console.log(jsUser.name)
@@ -22,7 +22,7 @@
 // console.log(jsUser)
 
 
-//----FREEZING THE OBJECTS----//
+//----3--FREEZING THE OBJECTS----//
 
 // const mySym = Symbol("h")
 // const jsUser = {
@@ -43,7 +43,7 @@
 
 
 
-//----FUNCTION INSIDE OBJECTS----//
+//----4--FUNCTION INSIDE OBJECTS----//
 
 // const mySym = Symbol("h")
 // const jsUser = {
@@ -62,7 +62,7 @@
 // console.log(jsUser.greetings())
 
 
-//----THIS FUNCTION USING OBJECTS(INTRO)----//
+//----5--THIS FUNCTION USING OBJECTS(INTRO)----//
 
 const mySym = Symbol("h")
 const jsUser = {
