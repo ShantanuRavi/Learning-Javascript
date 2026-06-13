@@ -1,4 +1,7 @@
-//----OBJECTS LITERALS----//
+//----OBJECTS USING LITERALS----//
+
+
+
 // const mySym = Symbol("h")
 // const jsUser = {
 //     name:"Ravi",
