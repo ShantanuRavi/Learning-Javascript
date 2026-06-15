@@ -1,2 +1,2 @@
-# js-course
-js course with Hitesh
+# Learning Javascript
+Learning Javascript
