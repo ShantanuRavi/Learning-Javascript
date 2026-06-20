@@ -1,4 +1,4 @@
-//----SIMPLE USE OF FOREACH()----//
+ //----SIMPLE USE OF FOREACH()----//
 
 // const coding = ["js","ruby","java","python","cpp"]
 // coding.forEach(function(item){
