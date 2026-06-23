@@ -53,7 +53,7 @@ body.style.backgroundColor = e.target.id;
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/shantanuRavi/color-scheme-switcher.git
+git clone https://github.com/ShantanuRavi/color-scheme-switcher.git
 ```
 
 2. Navigate to the project folder:
