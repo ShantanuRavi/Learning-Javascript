@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events</title>
+</head>
+<body style="background-color: rgb(31, 26, 6);color: white;">
+  <h2>Amazing Images</h2>
+  <div> 
+    <ul id="images">  
+      <li>  
+        <img src="photo-1.jpg" style="max-width: 20%; height: auto;" id="horse">
+      </li>
+      <li>
+        <img src="photo-2.jpg" style="max-width: 20%; height: auto;" id="monkey">
+      </li>
+      <li>
+        <img src="photo-3.jpg" style="max-width: 20%; height: auto;" id="sheep">
+      </li>
+      <li>
+        <img src="photo-4.jpg" style="max-width: 20%; height: auto;" id="goku">
+      </li>
+      <li>
+        <a href="https://google.com" style ="background-color: aliceblue;" target="_blank" id="google">Google</a>
+      </li>
+    </ul>
+  </div>
+</body>
+<script>
+  const im = document.getElementById("horse")
+  console.log(im)
+  im.addEventListener("click",function(){
+    alert("hello")
+  })
+</script>
+</html>
