@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async</title>
+</head>
+<body style="background-color: rgb(31, 19, 15);color: white;">
+  <h1>heeeeeeeeeeeeeeeeee</h1>
+  <button id="stop">Stop</button>
+</body>
+<script>
+  let changeText = function(){
+    // console.log("Shantanu")
+    document.querySelector("h1").innerHTML = "shuuuuuuu";
+  };
+  let stopme = setTimeout(changeText,3000);
+
+  document.querySelector("#stop").addEventListener("click",()=>{
+    clearTimeout(stopme);
+    console.log("CHANGE STOPPED");
+  })
+
+
+
+
+  // let element = document.getElementById("stop");
+  // element.addEventListener("click",function(){
+  //   document.querySelector("h1").innerHTML = "shuuuuuuu";
+  // })
+
+  
+</script>
+</html>
