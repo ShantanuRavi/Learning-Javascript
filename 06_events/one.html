@@ -9,28 +9,65 @@
   <div> 
     <ul id="images">  
       <li>  
-        <img src="photo-1.jpg" style="max-width: 20%; height: auto;" id="horse">
+        <img src="photo-1.jpg" style="max-width: 20%; height: auto;" id="horse" alt="">
       </li>
       <li>
-        <img src="photo-2.jpg" style="max-width: 20%; height: auto;" id="monkey">
+        <img src="photo-2.jpg" style="max-width: 20%; height: auto;" id="monkey" alt="">
       </li>
       <li>
-        <img src="photo-3.jpg" style="max-width: 20%; height: auto;" id="sheep">
+        <img src="photo-3.jpg" style="max-width: 20%; height: auto;" id="sheep" alt="">
       </li>
       <li>
-        <img src="photo-4.jpg" style="max-width: 20%; height: auto;" id="goku">
+        <img src="photo-4.jpg" style="max-width: 20%; height: auto;" id="goku" alt="">
       </li>
       <li>
-        <a href="https://google.com" style ="background-color: aliceblue;" target="_blank" id="google">Google</a>
+        <a href="https://google.com" style ="background-color: aliceblue;" target="_blank" id="google" alt="">Google</a>
       </li>
     </ul>
   </div>
 </body>
-<script>
-  const im = document.getElementById("horse")
-  console.log(im)
-  im.addEventListener("click",function(){
-    alert("hello")
-  })
+<script src="01_events.js">
+  // const im = document.getElementById("horse")
+  // // console.log(im)
+  // im.addEventListener("click",function(e){
+  //   console.log(e.target);
+  // })
+//   document.addEventListener("click", function(e) {
+//     console.log(e.type);      // click
+//     console.log(e.clientX);   // Mouse X position
+//     console.log(e.clientY);   // Mouse Y position
+//     console.log(e.target);    // Clicked element
+// });
+
+// document.addEventListener("keydown", function(e) {
+//     console.log(e.key);       // "a", "Enter", etc.
+//     console.log(e.ctrlKey);   // true if Ctrl is pressed
+//     console.log(e.shiftKey);  // true if Shift is pressed
+//     console.log(e.altKey);    // true if Alt is pressed
+// });
+
+//----BUBBLING(CHILD TO PARENT)----//
+
+// document.getElementById("images").addEventListener("click",function(e){
+//   console.log("clicked inside unordered list")
+// },false);
+
+// document.getElementById("horse").addEventListener("click",function(e){
+//   console.log("Horse clicked")
+//   e.stopPropagation();
+// },false);
+
+//----CAPTURING(PARENT TO CHILD)----//
+
+// document.getElementById("images").addEventListener("click",function(e){
+//   console.log("clicked inside unordered list")
+//   e.stopPropagation();
+// },true);
+
+// document.getElementById("horse").addEventListener("click",function(e){
+//   console.log("Horse clicked")
+// },true);
+
+
 </script>
 </html>
