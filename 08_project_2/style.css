@@ -1,0 +1,12 @@
+.project{
+  background-color:black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+}
+table,th,td{
+  border: 2px solid white;
+}
