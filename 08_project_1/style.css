@@ -38,7 +38,7 @@ body{
 #colorbox{
   width: 400px;
   height: 400px;
-  background-color: rgb(116, 124, 87);
+  background-color: rgb(255, 255, 255);
   border: 3px solid black;
   border-radius: 10px;
   margin-top: 20px;
