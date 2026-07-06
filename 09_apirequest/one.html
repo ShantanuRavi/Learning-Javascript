@@ -63,7 +63,6 @@
     if(xhr.readyState === 4)
     {
       const data = JSON.parse(this.responseText);
-      // console.log(data.avatar_url);
       document.getElementById("canvas").innerHTML = `<img src="${data.avatar_url}" width="50" height="50"></img>`
     }
   }
